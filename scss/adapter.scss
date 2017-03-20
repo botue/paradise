@@ -1,0 +1,21 @@
+
+
+// viewport 等于 320px
+@media screen and (width: 320px) {
+    html {
+        font-size: 12.8px;
+    }
+}
+
+// viewport 等于 360px
+@media screen and (max-width: 360px) {
+    html {
+        font-size: 14.4px;
+    }
+}
+
+@media screen and (max-width: 375px) {
+    html {
+        font-size: 12.8px;
+    }
+}
