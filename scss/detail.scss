@@ -1,0 +1,110 @@
+
+@charset 'utf-8';
+
+@import 'fonts';
+
+@import 'normalize';
+
+@import 'adapter';
+
+@import 'base';
+
+// 活动详情
+.detail {
+    
+    // 封面
+    .cover {
+        position: relative;
+    }
+    
+    // 信息
+    .meta {
+        padding: 15rem / $baseGrid 30rem / $baseGrid 18rem / $baseGrid;
+        background-color: #FFF;
+        position: relative;
+
+        p.title {
+            line-height: 1.4;
+            margin-bottom: 30rem / $baseGrid;
+            font-size: 40rem / $baseGrid;
+            color: #3C3C3C;
+            // font-weight: 600;
+        }
+
+        .label {
+            position: absolute;
+            bottom: 15rem / $baseGrid;
+            right: 30rem / $baseGrid;
+            
+            font-size: 36rem / $baseGrid;
+            color: #FE6249;
+        }
+
+        p.info {
+            font-size: 30rem / $baseGrid;
+            color: #B4B4B4;
+
+            span {
+                margin-right: 9rem / $baseGrid;
+            }
+        }
+    }
+
+    // 其它
+    .extra {
+        padding-left: 30rem / $baseGrid;
+        background-color: #FFF;
+        margin-top: 24rem / $baseGrid;
+
+        li {
+            line-height: 1;
+            padding: 30rem / $baseGrid;
+            padding-left: 0;
+            font-size: 30rem / $baseGrid;
+            color: #6C6C6C;
+            border-bottom: 1px solid #EEE;
+        }
+
+        span {
+            float: right;
+        }
+    }
+
+    // 详情
+    .content {
+        padding: 0 30rem / $baseGrid;
+        margin-top: 24rem / $baseGrid;
+        background-color: #FFF;
+
+        h5 {
+            line-height: 1;
+            padding: 36rem / $baseGrid 0;
+            margin-right: -30rem / $baseGrid;
+            font-size: 36rem / $baseGrid;
+            font-weight: normal;
+            color: #3C3C3C;
+            border-bottom: 1px solid #EEE;
+        }
+
+        .richtxt {
+            font-size: 30rem / $baseGrid;
+            padding: 12rem / $baseGrid 0 28rem / $baseGrid;
+        }
+
+        h6 {
+            line-height: 1;
+            margin: 27rem / $baseGrid 0;
+            color: #3C3C3C;
+            font-size: 32rem / $baseGrid;
+            font-weight: normal;
+        }
+
+        p {
+            line-height: 1.5;
+            margin: 12rem / $baseGrid 0;
+            color: #6C6C6C;
+            font-size: 30rem / $baseGrid;
+            text-indent: 60rem / $baseGrid;
+        }
+    }
+}

@@ -1,0 +1,141 @@
+
+@charset 'utf-8';
+
+@import 'fonts';
+
+@import 'normalize';
+
+@import 'adapter';
+
+@import 'base';
+
+// 首页
+.index {
+
+    // 焦点图
+    .banner {
+        height: 320rem / $baseGrid;
+        overflow: hidden;
+
+        ul {
+            height: 100%;
+        }
+
+        li {
+            height: 100%;
+            background: #d8d8d8 url(../images/blank.png) center no-repeat;
+            background-size: 132rem / $baseGrid auto;
+        }
+    }
+
+    // 活动列表
+    .activity {
+        padding-bottom: 135rem / $baseGrid;
+        overflow: hidden;
+
+        h3 {
+            line-height: 1;
+            padding: 30rem / $baseGrid 30rem / $baseGrid 6rem / $baseGrid;
+            font-size: 36rem / $baseGrid;
+            color: #3C3C3C;
+            font-weight: 600;
+
+        }
+
+        article {
+            margin-top: 30rem / $baseGrid;
+            background-color: #FFF;
+            position: relative;
+        }
+
+        .cover {
+            height: 320rem / $baseGrid;
+            background: #d8d8d8 url(../images/placeholder.png) center no-repeat;
+            background-size: 260rem / $baseGrid auto;
+        }
+
+        .stat {
+            position: absolute;
+            left: 28rem / $baseGrid;
+            top: -10rem / $baseGrid;
+
+            width: 140rem / $baseGrid;
+            height: 60rem / $baseGrid;
+            text-align: center;
+            line-height: 2.2;
+            color: #FFF;
+            font-size: 24rem / $baseGrid;
+            background: center no-repeat;
+            background-size: 140rem / $baseGrid auto;
+        }
+
+        .active {
+            background-image: url(../images/status_active.png);
+        }
+
+        .default {
+            background-image: url(../images/status_default.png);
+        }
+
+        .meta {
+            padding: 15rem / $baseGrid 30rem / $baseGrid 18rem / $baseGrid;
+            position: relative;
+        }
+
+        p.title {
+            line-height: 1.4;
+            padding-right: 90rem / $baseGrid;
+            margin-bottom: 30rem / $baseGrid;
+            font-size: 40rem / $baseGrid;
+            // font-weight: 600;
+            color: #3C3C3C;
+        }
+
+        .label {
+            position: absolute;
+            top: 15rem / $baseGrid;
+            right: 30rem / $baseGrid;
+            
+            line-height: 1.5;
+            font-size: 36rem / $baseGrid;
+            color: #FE6249;
+        }
+
+        p.info {
+            font-size: 30rem / $baseGrid;
+            color: #B4B4B4;
+
+            span {
+                margin-right: 9rem / $baseGrid;
+            }
+        }
+    }
+    
+    // 底部导航
+    .footer {
+
+        nav {
+            height: 100%;
+            background-color: #FECA49;
+            display: flex;
+
+            a {
+                flex: 1;
+                text-align: center;
+                padding: 15rem / $baseGrid;
+                color: #D78B09;
+                font-size: 40rem / $baseGrid;
+            }
+
+            span {
+                display: block;
+                line-height: 1.8;
+                font-size: 28rem / $baseGrid;
+            }
+
+            .active {
+                color: #FFF;
+            }
+        }
+    }
+}

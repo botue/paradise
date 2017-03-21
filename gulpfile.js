@@ -23,7 +23,7 @@ gulp.task('server', () => {
 gulp.task('scss', () => {
     gulp.src('./scss/*')
         .pipe(sourcemaps.init())
-        .pipe(sass({outputStyle: 'compressed'}))
+        .pipe(sass())
         .pipe(sourcemaps.write('./'))
         .pipe(gulp.dest('./css'))
         .pipe(filter('**/*.css'))
