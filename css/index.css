@@ -487,7 +487,8 @@ body, ul, p, h3, h4, h5, h6 {
   margin: 0; }
 
 body {
-  font-family: Arial, Helvetica, sans-serif; }
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 1rem; }
 
 img {
   display: block;
@@ -508,27 +509,25 @@ a {
 .footer {
   width: 100%;
   max-width: 25rem;
-  height: 3.5rem;
+  height: 4rem;
   position: fixed;
   bottom: 0; }
 
-.index .banner {
-  height: 10.66667rem;
-  overflow: hidden; }
-  .index .banner ul {
-    height: 100%; }
-  .index .banner li {
-    height: 100%;
-    background: #d8d8d8 url(../images/blank.png) center no-repeat;
-    background-size: 4.4rem auto; }
-
-.index .activity {
-  padding-bottom: 4.5rem;
-  overflow: hidden; }
+.index {
+  padding-bottom: 5rem; }
+  .index .banner {
+    height: 10.66667rem;
+    overflow: hidden; }
+    .index .banner ul {
+      height: 100%; }
+    .index .banner li {
+      height: 100%;
+      background: #d8d8d8 url(../images/blank.png) center no-repeat;
+      background-size: 4.4rem auto; }
   .index .activity h3 {
     line-height: 1;
     padding: 1rem 1rem 0.2rem;
-    font-size: 1.2rem;
+    font-size: 1.4rem;
     color: #3C3C3C;
     font-weight: 600; }
   .index .activity article {
@@ -572,26 +571,24 @@ a {
     font-size: 1.2rem;
     color: #FE6249; }
   .index .activity p.info {
-    font-size: 1rem;
     color: #B4B4B4; }
     .index .activity p.info span {
       margin-right: 0.3rem; }
-
-.index .footer nav {
-  height: 100%;
-  background-color: #FECA49;
-  display: flex; }
-  .index .footer nav a {
-    flex: 1;
-    text-align: center;
-    padding: 0.5rem;
-    color: #D78B09;
-    font-size: 1.33333rem; }
-  .index .footer nav span {
-    display: block;
-    line-height: 1.8;
-    font-size: 0.93333rem; }
-  .index .footer nav .active {
-    color: #FFF; }
+  .index .footer nav {
+    height: 100%;
+    background-color: #FECA49;
+    display: flex; }
+    .index .footer nav a {
+      flex: 1;
+      text-align: center;
+      padding: 0.6rem;
+      color: #D78B09;
+      font-size: 1.5rem; }
+    .index .footer nav span {
+      display: block;
+      line-height: 1.8;
+      font-size: 1rem; }
+    .index .footer nav .active {
+      color: #FFF; }
 
 /*# sourceMappingURL=index.css.map */

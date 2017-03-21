@@ -11,6 +11,8 @@
 
 // 活动详情
 .detail {
+
+    padding-bottom: 150rem / $baseGrid;
     
     // 封面
     .cover {
@@ -28,7 +30,6 @@
             margin-bottom: 30rem / $baseGrid;
             font-size: 40rem / $baseGrid;
             color: #3C3C3C;
-            // font-weight: 600;
         }
 
         .label {
@@ -41,7 +42,7 @@
         }
 
         p.info {
-            font-size: 30rem / $baseGrid;
+            
             color: #B4B4B4;
 
             span {
@@ -49,20 +50,39 @@
             }
         }
     }
+    
+    // 面板
+    .panel {
+        padding: 0 30rem / $baseGrid;
+        background-color: #FFF;
+        margin-top: 24rem / $baseGrid;
+
+        h5 {
+            line-height: 1;
+            padding: 30rem / $baseGrid 0;
+            margin-right: -30rem / $baseGrid;
+            font-size: 36rem / $baseGrid;
+            font-weight: normal;
+            color: #3C3C3C;
+            border-bottom: 1px solid #EEE;
+        }
+    }
 
     // 其它
     .extra {
-        padding-left: 30rem / $baseGrid;
-        background-color: #FFF;
-        margin-top: 24rem / $baseGrid;
 
         li {
             line-height: 1;
             padding: 30rem / $baseGrid;
             padding-left: 0;
-            font-size: 30rem / $baseGrid;
+            margin-right: -30rem / $baseGrid;
+            
             color: #6C6C6C;
             border-bottom: 1px solid #EEE;
+
+            &:last-child {
+                border: 0 none;
+            }
         }
 
         span {
@@ -72,9 +92,6 @@
 
     // 详情
     .content {
-        padding: 0 30rem / $baseGrid;
-        margin-top: 24rem / $baseGrid;
-        background-color: #FFF;
 
         h5 {
             line-height: 1;
@@ -87,7 +104,7 @@
         }
 
         .richtxt {
-            font-size: 30rem / $baseGrid;
+            
             padding: 12rem / $baseGrid 0 28rem / $baseGrid;
         }
 
@@ -103,8 +120,86 @@
             line-height: 1.5;
             margin: 12rem / $baseGrid 0;
             color: #6C6C6C;
-            font-size: 30rem / $baseGrid;
+            
             text-indent: 60rem / $baseGrid;
         }
     }
+
+    // 须知
+    .notice {
+        overflow: hidden;
+
+        ul {
+            padding: 15rem / $baseGrid 0;
+        }
+
+        li {
+            line-height: 1;
+            padding: 16rem / $baseGrid 0;
+            color: #6C6C6C;
+            
+            overflow: hidden;
+
+            &:before {
+                content: '';
+                display: block;
+                float: left;
+                width: 18rem / $baseGrid;
+                height: 18rem / $baseGrid;
+                margin: 6rem / $baseGrid;
+                background-color: #D8D8D8;
+                border-radius: 50%;
+            }
+        }
+
+        .contact {
+            display: block;
+            text-align: center;
+            line-height: 1;
+            padding: 24rem / $baseGrid;
+            margin-bottom: 30rem / $baseGrid;
+            
+            color: #969696;
+            border: 1px solid #DDD;
+            border-radius: 4rem / $baseGrid;
+        }
+    }
+
+    // 提示
+    .tips {
+
+        ul {
+            padding: 24rem / $baseGrid 0;
+        }
+
+        li {
+            line-height: 1.5;
+            margin-bottom: 15rem / $baseGrid;
+
+            color: #6C6C6C;
+        }
+    }
+
+    .footer {
+        // 立即报名
+        a.join {
+            display: block;
+            text-align: center;
+            line-height: 1;
+            padding: 38rem / $baseGrid 0;
+            font-size: 45rem / $baseGrid;
+            color: #FFF;
+            background-color: #FECA49;
+        }
+    }
 }
+
+
+
+
+
+
+
+
+
+

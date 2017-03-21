@@ -11,6 +11,7 @@
 
 // 首页
 .index {
+    padding-bottom: 150rem / $baseGrid;
 
     // 焦点图
     .banner {
@@ -30,13 +31,11 @@
 
     // 活动列表
     .activity {
-        padding-bottom: 135rem / $baseGrid;
-        overflow: hidden;
 
         h3 {
             line-height: 1;
             padding: 30rem / $baseGrid 30rem / $baseGrid 6rem / $baseGrid;
-            font-size: 36rem / $baseGrid;
+            font-size: 42rem / $baseGrid;
             color: #3C3C3C;
             font-weight: 600;
 
@@ -87,7 +86,6 @@
             padding-right: 90rem / $baseGrid;
             margin-bottom: 30rem / $baseGrid;
             font-size: 40rem / $baseGrid;
-            // font-weight: 600;
             color: #3C3C3C;
         }
 
@@ -102,7 +100,7 @@
         }
 
         p.info {
-            font-size: 30rem / $baseGrid;
+            
             color: #B4B4B4;
 
             span {
@@ -122,15 +120,15 @@
             a {
                 flex: 1;
                 text-align: center;
-                padding: 15rem / $baseGrid;
+                padding: 18rem / $baseGrid;
                 color: #D78B09;
-                font-size: 40rem / $baseGrid;
+                font-size: 45rem / $baseGrid;
             }
 
             span {
                 display: block;
                 line-height: 1.8;
-                font-size: 28rem / $baseGrid;
+                font-size: 30rem / $baseGrid;
             }
 
             .active {
