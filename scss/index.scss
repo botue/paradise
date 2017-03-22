@@ -51,12 +51,24 @@
             height: 320rem / $baseGrid;
             background: #d8d8d8 url(../images/placeholder.png) center no-repeat;
             background-size: 260rem / $baseGrid auto;
+            position: relative;
+        }
+
+        .collect {
+            position: absolute;
+            right: 30rem / $baseGrid;
+            top: 24rem / $baseGrid;
+
+            display: block;
+            font-size: 45rem / $baseGrid;
+            color: #FECB49;
         }
 
         .stat {
             position: absolute;
             left: 28rem / $baseGrid;
             top: -10rem / $baseGrid;
+            z-index: 9;
 
             width: 140rem / $baseGrid;
             height: 60rem / $baseGrid;
